@@ -1,3 +1,13 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+  }
+
 #picture-splash {
     background-image: url(../images/splash.jpg);
     background-position-y: -175px;
@@ -48,6 +58,10 @@
 #logo {
     padding-top: 3px;
     height: 55px;
+}
+
+#footer-padding {
+    padding: 0;
 }
 
 @media screen and (max-width: 450px){
