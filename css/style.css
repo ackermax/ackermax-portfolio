@@ -12,9 +12,8 @@ main {
     color: rgb(255, 255, 255);
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
-    position: fixed;
-    bottom: 10%;
-    left: 5%;
+    position: relative;
+    padding-top: 90%;
     text-shadow: 2px 2px #2c2c2c;
     opacity:0;  /* make things invisible upon start */
     -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
@@ -34,6 +33,15 @@ main {
     animation-delay: 0.5s;
 }
 
+.splash-description {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 5%;
+    text-shadow: 2px 2px #2c2c2c;
+    opacity:0;  /* make things invisible upon start */
+}
+
 #picture-splash {
     background-image: url(../images/splash.jpg);
     background-position-y: -175px;
@@ -44,7 +52,7 @@ main {
     background-color: white;
     height: 100%;
     padding-top: 20%;
-    padding-bottom: 60%;
+    padding-bottom: 35%;
 }
 
 #null-row {
@@ -75,9 +83,7 @@ main {
 
 #list-main {
     color: rgb(46, 46, 46);
-    font-family: 'Montserrat', sans-serif;
-
-    
+    font-family: 'Montserrat', sans-serif;   
 }
 
 #new-font {
@@ -131,8 +137,9 @@ main {
         top: -9999px;
     }
     #picture-splash {
-        background-position-y: 0;
+        background-position-y: 40px;
         background-size: 100%;
+        background-color: #546e7a;
     }
 }
 @media screen and (min-width: 450px){
@@ -154,4 +161,60 @@ main {
 
 #p-text-about {
     font-size: 150%;
+}
+
+#web {
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+      
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+      
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+#photo {
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+      
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+      
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+
+    -webkit-animation-delay: 2.5s;
+    -moz-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+
+#create {
+    color: rgb(193,81,29);
+
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+      
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+      
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+
+    -webkit-animation-delay: 3.5s;
+    -moz-animation-delay: 3.5s;
+    animation-delay: 3.5s;
 }
