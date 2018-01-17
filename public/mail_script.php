@@ -1,6 +1,6 @@
 <?php 
 $emailTo = 'max@ackermax.com';
-$siteTitle = 'ackermax.com';
+$siteTitle = 'http://ackermax.com';
 
 error_reporting(E_ALL ^ E_NOTICE); // hide all basic notices from PHP
 
