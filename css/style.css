@@ -335,7 +335,7 @@ main {
     box-shadow: 0 4px 8px rgb(37, 37, 37);
     float: left;
     width: 250px;
-    margin: 10px;
+    margin: 0 10px 10px 0;
 }
 #image-dump {
     margin: auto;
