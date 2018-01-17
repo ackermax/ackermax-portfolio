@@ -6,4 +6,6 @@ $(document).ready(function(){
         var source = $(this).attr("src");
         $("#image-dump").attr("src", source);
     });
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
 });
