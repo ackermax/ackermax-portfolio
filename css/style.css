@@ -110,6 +110,10 @@ main {
     
 }
 
+.footer-icons {
+    margin-left: 5px;
+}
+
 /* unvisited link */
 .splash-list a:link {
     color: rgb(46, 46, 46);
@@ -308,4 +312,11 @@ main {
     animation-delay: 2.5s;
 
     font-weight: bold;
+}
+#footer-relative {
+    position: relative;
+}
+#name-footer-padding {
+    position: absolute;
+    top: 8px;
 }
