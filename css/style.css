@@ -174,9 +174,11 @@ main {
         background-size: 100%;
         background-color: #546e7a;
     }
-    /* #image-dump {
-        width: 300px;
-    } */
+    #image-dump {
+        visibility: hidden;
+        position: absolute;
+        top: -9999px;
+    }
 }
 @media screen and (min-width: 450px){
     #image-dump {
