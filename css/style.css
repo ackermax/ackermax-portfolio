@@ -2,7 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-color: #79675d;
+    background-color: #3c3847;
   }
 
 main {
@@ -331,6 +331,7 @@ main {
     top: 8px;
 }
 #inline {
+    box-shadow: 0 4px 8px rgb(37, 37, 37);
     float: left;
     width: 250px;
     margin: 10px;
@@ -341,4 +342,17 @@ main {
 }
 .carousel-image:hover {
     border: 1px solid rgb(255, 81, 0);
+}
+#about-p {
+    color: rgb(224, 224, 224);
+    text-shadow: 0 1px 2px rgb(37, 37, 37);
+}
+.icon-color a:link {
+    color: white;
+}
+.icon-color a:visited {
+    color: white;
+}
+.icon-color a:hover {
+    color: rgb(255, 81, 0);
 }
