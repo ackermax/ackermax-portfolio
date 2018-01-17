@@ -1,0 +1,23 @@
+{
+  "name": "ackermax-portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio website viewable on http://ackermax.com",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ackermax/ackermax-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ackermax/ackermax-portfolio/issues"
+  },
+  "homepage": "https://github.com/ackermax/ackermax-portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
