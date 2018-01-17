@@ -135,11 +135,35 @@
         <!-- Modal Structure -->
         <div id="modal1" class="modal">
             <div class="modal-content">
-                <h4>Contact</h4>
-                <p>Contact form is coming soon! Thank you for your patience.</p>
-            </div>
-            <div class="modal-footer">
-                <a href="#!" class="modal-action modal-close waves-effect waves-teal btn-flat">Send (soon)</a>
+                <div class="row">
+                    <div class="col s12">
+                        <h4>Contact</h4>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <form class="col s12" action="mail_script.php" method="POST">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input type="text" name="contactName" id="contactName" class="validate">
+                                <label for="contactName">Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input type="email" name="email" id="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="comments" class="materialize-textarea" name="comments"></textarea>
+                                <label for="comments">Message</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" name="submitted" class="right modal-action modal-close waves-effect waves-teal btn-flat" value="Send">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </main>
