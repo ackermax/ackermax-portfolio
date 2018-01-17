@@ -2,6 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color: #79675d;
   }
 
 main {
@@ -173,8 +174,14 @@ main {
         background-size: 100%;
         background-color: #546e7a;
     }
+    /* #image-dump {
+        width: 300px;
+    } */
 }
 @media screen and (min-width: 450px){
+    #image-dump {
+        height: 600px;
+    }
     #nav-hide {
         visibility: hidden;
         position: absolute;
@@ -269,6 +276,7 @@ main {
 
 .orange-site {
     color: rgb(255, 81, 0);
+    text-shadow: 2px 2px 4px rgb(37, 37, 37);
 }
 
 #appear-second-last {
@@ -319,4 +327,16 @@ main {
 #name-footer-padding {
     position: absolute;
     top: 8px;
+}
+#inline {
+    float: left;
+    width: 250px;
+    margin: 10px;
+}
+#image-dump {
+    margin: auto;
+    box-shadow: 0 4px 8px rgb(37, 37, 37);
+}
+.carousel-image:hover {
+    border: 1px solid rgb(255, 81, 0);
 }
